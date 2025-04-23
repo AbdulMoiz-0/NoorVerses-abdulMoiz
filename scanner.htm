@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Product Checker</title>
+  <link rel="stylesheet" href="scanner.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Reem+Kufi&display=swap" rel="stylesheet" />
+</head>
+<body>
+  <header class="scanner-header">
+    <h1>🕊️ NoorVerse Product Checker</h1>
+    <p>Check if a brand is linked to Israeli apartheid</p>
+  </header>
+
+  <main>
+    <div class="search-container">
+      <input type="text" id="brandSearch" placeholder="Enter brand name..." />
+      <button id="scanBtn">Scan</button>
+    </div>
+
+    <div id="loadingIndicator" class="loading">
+      <div class="spinner"></div>
+      <p>Analyzing...</p>
+    </div>
+
+    <div id="resultContainer" class="result-container"></div>
+  </main>
+
+  <!-- Taskbar -->
+  <footer class="taskbar">
+    <button id="streakBtn">Streak</button>
+    <button id="hadithBtn">Hadith</button>
+    <button id="namazBtn">Namaz Tracker</button>
+  </footer>
+
+  <!-- Modal for displaying content -->
+  <div id="modal" class="modal">
+    <div class="modal-content">
+      <span id="closeModal" class="close">&times;</span>
+      <div id="modalBody"></div>
+    </div>
+  </div>
+
+  <script src="scanner.js"></script>
+</body>
+</html>
+
+
+
+

@@ -1,0 +1,51 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NoorVerse</title>
+    <link href="https://fonts.googleapis.com/css2?family=Reem+Kufi&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <!-- Login Container (Visible on Initial Load) -->
+    <div class="login-container active">
+        <div class="login-box">
+            <h1 class="logo">نُورVerse</h1>
+            <form id="loginForm">
+                <input type="text" id="username" placeholder="Username" required>
+                <input type="password" id="password" placeholder="Password" required>
+                <button type="submit">Sign In</button>
+            </form>
+        </div>
+    </div>
+
+    <!-- Dashboard Container (Hidden Initially) -->
+    <div class="dashboard-container" style="display: none;">
+        <nav class="taskbar">
+            <div class="logo-small">نُور</div>
+            <div class="nav-links">
+                <a href="#scanner" class="active"><i class="fas fa-qrcode"></i> Scanner</a>
+                <a href="#profile"><i class="fas fa-user"></i> Profile</a>
+                <a href="#settings"><i class="fas fa-cog"></i> Settings</a>
+            </div>
+        </nav>
+        <div class="content">
+            <h2>Welcome to NoorVerse Dashboard</h2>
+            <p>Content goes here...</p>
+        </div>
+    </div>
+
+    <script>
+        const loginForm = document.getElementById('loginForm');
+
+        loginForm.addEventListener('submit', (e) => {
+            e.preventDefault();
+            // Redirect to the scanner.htm file in the scanner folder
+            window.location.href = 'scanner.htm';
+        });
+    </script>
+</body>
+</html>

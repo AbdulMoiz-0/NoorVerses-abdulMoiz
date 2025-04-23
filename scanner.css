@@ -1,0 +1,220 @@
+/* NoorVerse-style enhanced dark theme */
+body {
+    margin: 0;
+    font-family: 'Reem Kufi', sans-serif;
+    background: linear-gradient(135deg, #2a5a57, #183331);
+    color: #f2f2f2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    min-height: 100vh;
+    padding: 40px 20px;
+    overflow-x: hidden;
+}
+
+h1 {
+    font-size: 3rem;
+    margin-bottom: 10px;
+    color: #00ffd5;
+    text-shadow: 0 0 8px rgba(0, 255, 213, 0.5);
+}
+
+p {
+    font-size: 1.2rem;
+    color: #ccc;
+    text-align: center;
+    max-width: 600px;
+}
+
+/* Input and Button */
+input, button {
+    font-family: inherit;
+    padding: 12px 20px;
+    font-size: 1rem;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    transition: all 0.3s ease;
+    box-shadow: 0 0 5px rgba(0,0,0,0.2);
+}
+
+input {
+    width: 320px;
+    margin-bottom: 18px;
+    background-color: #121212;
+    color: #fff;
+    border: 1px solid #444;
+}
+
+input:focus {
+    border-color: #00ffd5;
+    box-shadow: 0 0 6px #00ffd5;
+}
+
+button {
+    background: #00ffd5;
+    color: #000;
+    cursor: pointer;
+    font-weight: bold;
+    box-shadow: 0 0 10px rgba(0,255,213,0.3);
+}
+
+button:hover {
+    background: #00bfa6;
+    box-shadow: 0 0 15px rgba(0,191,166,0.5);
+}
+
+/* Result Container & Cards */
+.result-container {
+    margin-top: 30px;
+    width: 100%;
+    max-width: 600px;
+    padding: 0 10px;
+}
+
+.result-card {
+    position: relative;
+    background: radial-gradient(circle at top left, #1f1f1f, #121212);
+    padding: 20px;
+    border-radius: 12px;
+    margin-bottom: 25px;
+    box-shadow: 0 0 12px rgba(0, 0, 0, 0.4);
+    transition: transform 0.3s ease, box-shadow 0.4s ease;
+    overflow: hidden;
+}
+
+.result-card::before {
+    content: "";
+    position: absolute;
+    top: -50%;
+    left: -50%;
+    width: 200%;
+    height: 200%;
+    background: radial-gradient(circle, rgba(0,255,213,0.2), transparent 70%);
+    transform: rotate(0deg);
+    animation: glowRotate 6s linear infinite;
+    z-index: 0;
+}
+
+.result-card h3, .result-card p {
+    position: relative;
+    z-index: 1;
+}
+
+.result-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 0 20px rgba(0,255,213,0.2);
+}
+
+.result-card.boycott {
+    border-left: 5px solid #ff3c3c;
+}
+
+.result-card.safe {
+    border-left: 5px solid #00e676;
+}
+
+@keyframes glowRotate {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+/* Loading Spinner */
+.loading {
+    display: none;
+    margin-top: 30px;
+    text-align: center;
+    animation: fadeIn 0.5s ease-in-out;
+}
+
+.spinner {
+    width: 50px;
+    height: 50px;
+    border: 6px solid #333;
+    border-top: 6px solid #00ffd5;
+    border-radius: 50%;
+    animation: spin 1s linear infinite;
+    margin: 0 auto 10px;
+    box-shadow: 0 0 10px rgba(0,255,213,0.3);
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(10px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+/* Taskbar */
+.taskbar {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background: #2a5a57;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px 0;
+    box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.3);
+    z-index: 1000;
+}
+
+.taskbar button {
+    background: #00ffd5;
+    color: #000;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 20px;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.taskbar button:hover {
+    background: #00bfa6;
+}
+
+/* Modal */
+.modal {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2000;
+    background: #121212;
+    color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    width: 80%;
+    max-width: 500px;
+}
+
+.modal-content {
+    position: relative;
+}
+
+.modal-content .close {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 1.5rem;
+    cursor: pointer;
+    color: #fff;
+}
+
+.modal-content .close:hover {
+    color: #ff3c3c;
+}
+
+
+
+
+

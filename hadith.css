@@ -1,0 +1,134 @@
+body {
+    font-family: 'Reem Kufi', sans-serif;
+    background: linear-gradient(135deg, #2a5a57, #183331);
+    color: #f2f2f2;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.container {
+    text-align: center;
+    background: #121212;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    width: 80%;
+    max-width: 500px;
+    animation: fadeIn 1s ease-in-out;
+}
+
+h1 {
+    color: #00ffd5;
+    margin-bottom: 20px;
+    text-shadow: 0 0 10px rgba(0, 255, 213, 0.8);
+    animation: glow 2s infinite alternate;
+}
+
+@keyframes glow {
+    from {
+        text-shadow: 0 0 10px rgba(0, 255, 213, 0.8);
+    }
+    to {
+        text-shadow: 0 0 20px rgba(0, 255, 213, 1);
+    }
+}
+
+.card {
+    background: radial-gradient(circle, #1f1f1f, #121212);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+    margin-bottom: 20px;
+    animation: slideIn 0.8s ease-out;
+}
+
+@keyframes slideIn {
+    from {
+        transform: translateY(-20px);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+.timer-settings {
+    margin-bottom: 20px;
+}
+
+label {
+    font-size: 1rem;
+    color: #ccc;
+}
+
+select {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #444;
+    background: #1f1f1f;
+    color: #fff;
+    font-size: 1rem;
+}
+
+select:focus {
+    border-color: #00ffd5;
+    outline: none;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: 1px solid #444;
+    background: #1f1f1f;
+    color: #fff;
+}
+
+input:disabled {
+    background: #333;
+    color: #777;
+}
+
+button {
+    background: #00ffd5;
+    color: #000;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 20px;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.3s ease, transform 0.2s ease;
+    margin: 10px 0;
+    box-shadow: 0 0 10px rgba(0, 255, 213, 0.5);
+}
+
+button:hover {
+    background: #00bfa6;
+    transform: translateY(-3px);
+    box-shadow: 0 0 15px rgba(0, 191, 166, 0.8);
+}
+
+#resultMessage {
+    margin-top: 10px;
+    font-size: 1.2rem;
+    color: #00ffd5;
+    animation: fadeIn 0.5s ease-in-out;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(10px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}

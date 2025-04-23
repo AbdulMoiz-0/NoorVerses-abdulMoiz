@@ -1,0 +1,183 @@
+[
+  {
+    "brand": "pepsi",
+    "isIsraeli": true,
+    "notes": "PepsiCo has faced boycotts due to perceived connections with Israel."
+  },
+  {
+    "brand": "coca-cola",
+    "isIsraeli": true,
+    "notes": "Coca-Cola has been boycotted in Muslim-majority countries over alleged support for Israel."
+  },
+  {
+    "brand": "nestlé",
+    "isIsraeli": true,
+    "notes": "Nestlé has faced calls for boycotts due to its operations in Israel."
+  },
+  {
+    "brand": "mcdonald's",
+    "isIsraeli": true,
+    "notes": "McDonald's has been criticized for alleged support for Israeli military efforts."
+  },
+  {
+    "brand": "kfc",
+    "isIsraeli": true,
+    "notes": "KFC has been included in boycott lists over perceived support for Israel."
+  },
+  {
+    "brand": "starbucks",
+    "isIsraeli": true,
+    "notes": "Starbucks has faced boycotts due to alleged support for Israel."
+  },
+  {
+    "brand": "burger king",
+    "isIsraeli": true,
+    "notes": "Burger King has been included in boycott lists over perceived support for Israel."
+  },
+  {
+    "brand": "subway",
+    "isIsraeli": true,
+    "notes": "Subway has faced boycotts due to alleged support for Israel."
+  },
+  {
+    "brand": "hardee's",
+    "isIsraeli": true,
+    "notes": "Hardee's has been included in boycott lists over perceived support for Israel."
+  },
+  {
+    "brand": "pizza hut",
+    "isIsraeli": true,
+    "notes": "Pizza Hut has faced boycotts due to alleged support for Israel."
+  },
+  {
+    "brand": "baskin-robbins",
+    "isIsraeli": true,
+    "notes": "Baskin-Robbins has been included in boycott lists over perceived support for Israel."
+  },
+  {
+    "brand": "l'oréal",
+    "isIsraeli": true,
+    "notes": "L'Oréal has faced boycotts due to its operations in Israel."
+  },
+  {
+    "brand": "revlon",
+    "isIsraeli": true,
+    "notes": "Revlon has been included in boycott lists over perceived support for Israel."
+  },
+  {
+    "brand": "garnier",
+    "isIsraeli": true,
+    "notes": "Garnier has faced boycotts due to its operations in Israel."
+  },
+  {
+    "brand": "estee lauder",
+    "isIsraeli": true,
+    "notes": "Estee Lauder has been included in boycott lists over perceived support for Israel."
+  },
+  {
+    "brand": "olay",
+    "isIsraeli": true,
+    "notes": "Olay has faced boycotts due to its operations in Israel."
+  },
+  {
+    "brand": "danone",
+    "isIsraeli": true,
+    "notes": "Danone has faced calls for boycotts due to its operations in Israel."
+  },
+  {
+    "brand": "maggi",
+    "isIsraeli": true,
+    "notes": "Maggi, a Nestlé brand, has faced boycotts due to Nestlé's operations in Israel."
+  },
+  {
+    "brand": "kitkat",
+    "isIsraeli": true,
+    "notes": "KitKat, a Nestlé brand, has faced boycotts due to Nestlé's operations in Israel."
+  },
+  {
+    "brand": "nescafé",
+    "isIsraeli": true,
+    "notes": "Nescafé, a Nestlé brand, has faced boycotts due to Nestlé's operations in Israel."
+  },
+  {
+    "brand": "pakola",
+    "isIsraeli": false,
+    "notes": "Pakistani-origin beverage brand, often promoted as an alternative to multinational sodas."
+  },
+  {
+    "brand": "gourmet cola",
+    "isIsraeli": false,
+    "notes": "Local Pakistani beverage brand, suggested as an alternative to Pepsi and Coca-Cola."
+  },
+  {
+    "brand": "olper's",
+    "isIsraeli": false,
+    "notes": "Pakistani dairy brand, recommended as an alternative to Nestlé's Milkpak."
+  },
+  {
+    "brand": "shan foods",
+    "isIsraeli": false,
+    "notes": "Pakistani producer of packaged spice mixes, with no known affiliations to Israel."
+  },
+  {
+    "brand": "omoré",
+    "isIsraeli": false,
+    "notes": "Pakistani frozen dessert brand, with no known affiliations to Israel."
+  },
+  {
+    "brand": "burger lab",
+    "isIsraeli": false,
+    "notes": "Local Pakistani fast-food chain, promoted as an alternative to multinational brands."
+  },
+  {
+    "brand": "johnny & jugnu",
+    "isIsraeli": false,
+    "notes": "Local Pakistani fast-food chain, promoted as an alternative to multinational brands."
+  },
+  {
+    "brand": "smash burger",
+    "isIsraeli": false,
+    "notes": "Local Pakistani fast-food chain, promoted as an alternative to multinational brands."
+  },
+  {
+    "brand": "howdy",
+    "isIsraeli": false,
+    "notes": "Local Pakistani fast-food chain, promoted as an alternative to multinational brands."
+  },
+  {
+    "brand": "brgr",
+    "isIsraeli": false,
+    "notes": "Local Pakistani fast-food chain, promoted as an alternative to multinational brands."
+  },
+  {
+    "brand": "sweet creme",
+    "isIsraeli": false,
+    "notes": "Local Pakistani dessert brand, promoted as an alternative to multinational brands."
+  },
+  {
+    "brand": "daily deli",
+    "isIsraeli": false,
+    "notes": "Local Pakistani fast-food chain, promoted as an alternative to multinational brands."
+  },
+  {
+    "brand": "optp",
+    "isIsraeli": false,
+    "notes": "Local Pakistani fast-food chain, promoted as an alternative to multinational brands."
+  },
+  {
+    "brand": "j.",
+    "isIsraeli": false,
+    "notes": "Pakistani clothing and cosmetics brand, with no known affiliations to Israel."
+  },
+  {
+    "brand": "luscious cosmetics",
+    "isIsraeli": false,
+    "notes": "Pakistani cosmetics brand, with no known affiliations to Israel."
+  }
+]
+
+
+
+
+
+

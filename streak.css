@@ -1,0 +1,100 @@
+body {
+    font-family: 'Reem Kufi', sans-serif;
+    background: linear-gradient(135deg, #1e3c3b, #0f1f1e);
+    color: #ffffff;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.container {
+    text-align: center;
+    background: #121212;
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0 0 25px rgba(0, 0, 0, 0.7);
+    width: 90%;
+    max-width: 600px;
+    animation: fadeIn 1s ease-in-out;
+}
+
+h1 {
+    color: #ff4500;
+    font-size: 3rem;
+    margin-bottom: 20px;
+    text-shadow: 0 0 20px rgba(255, 69, 0, 0.8);
+    animation: glow 2s infinite alternate;
+}
+
+@keyframes glow {
+    from {
+        text-shadow: 0 0 20px rgba(255, 69, 0, 0.8);
+    }
+    to {
+        text-shadow: 0 0 40px rgba(255, 69, 0, 1);
+    }
+}
+
+.streak-display {
+    background: radial-gradient(circle, #1f1f1f, #121212);
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(255, 69, 0, 0.5);
+    margin-bottom: 30px;
+    animation: pulse 1.5s infinite;
+}
+
+@keyframes pulse {
+    0% {
+        transform: scale(1);
+        box-shadow: 0 0 20px rgba(255, 69, 0, 0.5);
+    }
+    50% {
+        transform: scale(1.05);
+        box-shadow: 0 0 30px rgba(255, 69, 0, 0.8);
+    }
+    100% {
+        transform: scale(1);
+        box-shadow: 0 0 20px rgba(255, 69, 0, 0.5);
+    }
+}
+
+#streakCount {
+    font-size: 2.8rem;
+    color: #ff4500;
+    font-weight: bold;
+    text-shadow: 0 0 15px rgba(255, 69, 0, 0.8);
+}
+
+button {
+    background: #ff4500;
+    color: #ffffff;
+    border: none;
+    padding: 15px 30px;
+    border-radius: 30px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.3s ease, transform 0.2s ease;
+    box-shadow: 0 0 15px rgba(255, 69, 0, 0.5);
+}
+
+button:hover {
+    background: #ff6347;
+    transform: translateY(-3px);
+    box-shadow: 0 0 20px rgba(255, 99, 71, 0.8);
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
