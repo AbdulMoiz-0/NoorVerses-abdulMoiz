@@ -1,4 +1,126 @@
 [
+  
+  {
+    "brand": "kurkure",
+    "isIsraeli": false,
+    "notes": "Owned by PepsiCo through its subsidiary Frito-Lay, Kurkure is a popular spiced snack in Pakistan. PepsiCo has faced boycotts in Muslim-majority countries over perceived support for Israel."
+  },
+  {
+    "brand": "lays",
+    "isIsraeli": false,
+    "notes": "Lay's is owned by PepsiCo and is a leading potato chip brand in Pakistan. PepsiCo has faced boycotts in Muslim-majority countries over perceived support for Israel."
+  },
+  {
+    "brand": "cheetos",
+    "isIsraeli": false,
+    "notes": "Cheetos, another snack brand under PepsiCo's Frito-Lay division, is available in Pakistan. PepsiCo has faced boycotts in Muslim-majority countries over perceived support for Israel."
+  },
+  {
+    "brand": "pepsi",
+    "isIsraeli": false,
+    "notes": "Pepsi is a flagship beverage brand of PepsiCo. The company has faced boycotts in Muslim-majority countries over perceived support for Israel."
+  },
+  {
+    "brand": "7up",
+    "isIsraeli": false,
+    "notes": "7Up is a lemon-lime flavored soft drink owned by PepsiCo in Pakistan. PepsiCo has faced boycotts in Muslim-majority countries over perceived support for Israel."
+  },
+  {
+    "brand": "mountain dew",
+    "isIsraeli": false,
+    "notes": "Mountain Dew is a citrus-flavored soft drink brand owned by PepsiCo. The company has faced boycotts in Muslim-majority countries over perceived support for Israel."
+  },
+  {
+    "brand": "mirinda",
+    "isIsraeli": false,
+    "notes": "Mirinda is a fruit-flavored carbonated soft drink brand owned by PepsiCo. The company has faced boycotts in Muslim-majority countries over perceived support for Israel."
+  },
+  {
+    "brand": "teem",
+    "isIsraeli": false,
+    "notes": "Teem is a lemon-lime flavored soft drink brand owned by PepsiCo. The company has faced boycotts in Muslim-majority countries over perceived support for Israel."
+  },
+  {
+    "brand": "nestlé milkpak",
+    "isIsraeli": false,
+    "notes": "Milkpak is a UHT milk brand under Nestlé Pakistan. Nestlé has faced calls for boycotts due to its operations in Israel."
+  },
+  {
+    "brand": "nestlé nido",
+    "isIsraeli": false,
+    "notes": "Nido is a powdered milk brand under Nestlé Pakistan. Nestlé has faced calls for boycotts due to its operations in Israel."
+  },
+  {
+    "brand": "nestlé everyday",
+    "isIsraeli": false,
+    "notes": "Everyday is a tea whitener brand under Nestlé Pakistan. Nestlé has faced calls for boycotts due to its operations in Israel."
+  },
+  {
+    "brand": "nestlé nesvita",
+    "isIsraeli": false,
+    "notes": "Nesvita is a health-focused milk brand under Nestlé Pakistan. Nestlé has faced calls for boycotts due to its operations in Israel."
+  },
+  {
+    "brand": "nestlé pure life",
+    "isIsraeli": false,
+    "notes": "Pure Life is a bottled water brand under Nestlé Pakistan. Nestlé has faced calls for boycotts due to its operations in Israel."
+  },
+  {
+    "brand": "nestlé fruitya",
+    "isIsraeli": false,
+    "notes": "Fruita Vitals is a juice brand under Nestlé Pakistan. Nestlé has faced calls for boycotts due to its operations in Israel."
+  },
+  {
+    "brand": "olper's",
+    "isIsraeli": false,
+    "notes": "Olper's is a dairy brand by FrieslandCampina Engro Pakistan, offering milk, cream, and other dairy products."
+  },
+  {
+    "brand": "tarang",
+    "isIsraeli": false,
+    "notes": "Tarang is a tea whitener brand by FrieslandCampina Engro Pakistan, catering to tea lovers in Pakistan."
+  },
+  {
+    "brand": "omore",
+    "isIsraeli": false,
+    "notes": "Omoré is a frozen dessert brand by FrieslandCampina Engro Pakistan, offering a variety of ice cream flavors."
+  },
+  {
+    "brand": "kurleez",
+    "isIsraeli": false,
+    "notes": "Kurleez is a potato chips brand by Ismail Industries Limited, a Pakistani company."
+  },
+  {
+    "brand": "cocomo",
+    "isIsraeli": false,
+    "notes": "Cocomo is a chocolate-filled biscuit brand by Ismail Industries Limited, a Pakistani company."
+  },
+  {
+    "brand": "rite",
+    "isIsraeli": false,
+    "notes": "Rite is a sandwich biscuit brand by Ismail Industries Limited, a Pakistani company."
+  },
+  {
+    "brand": "chilli milli",
+    "isIsraeli": false,
+    "notes": "Chilli Milli is a spicy gummy candy brand by Ismail Industries Limited, a Pakistani company."
+  },
+  {
+    "brand": "pakola",
+    "isIsraeli": false,
+    "notes": "Pakola is a Pakistani-origin beverage brand, often promoted as an alternative to multinational sodas."
+  },
+  {
+    "brand": "amrat cola",
+    "isIsraeli": false,
+    "notes": "Amrat Cola is a Pakistani soft drink brand, offering cola, orange, and lemon-lime flavors."
+  },
+  {
+    "brand": "nurpur",
+    "isIsraeli": false,
+    "notes": "Nurpur is a dairy brand by Fauji Foods Limited, offering milk, butter, and cheese products in Pakistan."
+  }
+
   {
     "brand": "pepsi",
     "isIsraeli": true,
