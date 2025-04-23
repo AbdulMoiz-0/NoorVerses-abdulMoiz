@@ -295,8 +295,50 @@
     "brand": "luscious cosmetics",
     "isIsraeli": false,
     "notes": "Pakistani cosmetics brand, with no known affiliations to Israel."
+      {"brand": "Oral-B", "isIsraeli": true, "notes": "Listed in boycott calls for Israeli support."},
+  {"brand": "Revlon", "isIsraeli": true, "notes": "Alleged support for Israeli interests."},
+  {"brand": "Nestlé", "isIsraeli": true, "notes": "Extensive operations in Israel."},
+  {"brand": "HP", "isIsraeli": true, "notes": "Involved in Israeli security and ID systems."},
+  {"brand": "Pepsi", "isIsraeli": true, "notes": "Parent of many brands on boycott lists."},
+  {"brand": "Coca-Cola", "isIsraeli": true, "notes": "Operates bottling plants in Israel."},
+  {"brand": "McDonald's", "isIsraeli": true, "notes": "Criticized for supporting Israeli military."},
+  {"brand": "Starbucks", "isIsraeli": true, "notes": "Previously linked with donations to Israeli causes."},
+  {"brand": "Maggi", "isIsraeli": true, "notes": "Nestlé-owned, included in boycotts."},
+  {"brand": "Nescafé", "isIsraeli": true, "notes": "Nestlé-owned, subject to boycott calls."},
+  {"brand": "KFC", "isIsraeli": true, "notes": "Operates in Israel, targeted by boycott movements."},
+  {"brand": "Pizza Hut", "isIsraeli": true, "notes": "Criticized for controversial ad during Gaza conflict."},
+  {"brand": "Burger King", "isIsraeli": true, "notes": "Operates in Israel."},
+  {"brand": "Danone", "isIsraeli": true, "notes": "Operates in Israel and subject to boycott."},
+  {"brand": "Lay's", "isIsraeli": true, "notes": "Owned by PepsiCo."},
+  {"brand": "7UP", "isIsraeli": true, "notes": "Owned by PepsiCo."},
+  {"brand": "Mountain Dew", "isIsraeli": true, "notes": "Owned by PepsiCo."},
+  {"brand": "Aquafina", "isIsraeli": true, "notes": "Owned by PepsiCo."},
+  {"brand": "Sprite", "isIsraeli": true, "notes": "Owned by Coca-Cola."},
+  {"brand": "Fanta", "isIsraeli": true, "notes": "Owned by Coca-Cola."},
+  {"brand": "Nestlé Honey", "isIsraeli": true, "notes": "Part of Nestlé’s product range."},
+  {"brand": "KitKat", "isIsraeli": true, "notes": "Owned by Nestlé."},
+  {"brand": "L'Oréal", "isIsraeli": true, "notes": "Has operations and investments in Israel."},
+  {"brand": "Intel", "isIsraeli": true, "notes": "Major presence in Israel’s tech sector."},
+  {"brand": "Johnson & Johnson", "isIsraeli": true, "notes": "Operates in Israel."},
+  {"brand": "Dove", "isIsraeli": true, "notes": "Owned by Unilever, operates in Israel."},
+  {"brand": "OMO", "isIsraeli": true, "notes": "Owned by Unilever."},
+  {"brand": "Knorr", "isIsraeli": true, "notes": "Owned by Unilever."},
+  {"brand": "Vaseline", "isIsraeli": true, "notes": "Owned by Unilever."},
+  {"brand": "Pampers", "isIsraeli": true, "notes": "Owned by Procter & Gamble."},
+  {"brand": "Always", "isIsraeli": true, "notes": "Procter & Gamble brand."},
+  {"brand": "Colgate", "isIsraeli": true, "notes": "Listed in boycott campaigns."},
+  {"brand": "Palmolive", "isIsraeli": true, "notes": "Owned by Colgate-Palmolive."},
+  {"brand": "Ariel", "isIsraeli": true, "notes": "Procter & Gamble detergent brand."},
+  {"brand": "Head & Shoulders", "isIsraeli": true, "notes": "P&G brand."},
+  {"brand": "Gillette", "isIsraeli": true, "notes": "Owned by P&G."},
+  {"brand": "Red Bull", "isIsraeli": true, "notes": "Included in boycott lists over Israeli affiliations."},
+  {"brand": "Rin", "isIsraeli": true, "notes": "Unilever brand."},
+  {"brand": "Fair & Lovely", "isIsraeli": true, "notes": "Owned by Unilever."},
+  {"brand": "Lux", "isIsraeli": true, "notes": "Owned by Unilever."}
   }
 ]
+
+
 
 
 
